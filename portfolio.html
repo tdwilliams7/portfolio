@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <title>STUFF</title>
+</head>
+  <body class="container">
+   <div class="row">
+       <div class="col-md-2">
+       <img src="images/logo.png" class="logo-super img-responsive" alt="Udacity Logo">
+       </div>
+
+
+        <div class="col-md-10 text-right text-uppercase">
+            <h1 class="title-super text-thin ">Troy Williams</h1>
+            <h4 class="text-muted">Gonna make it big, Just watch</h4>
+       </div>
+   </div>
+   <div class="row">
+        <div class="col-md-12">
+           <hr>
+        </div>
+   </div>
+
+
+
+   <div class="row">
+        <div class="col-md-12"><img src="images/austin.jpg"
+        class="img-responsive" alt="crazy pic i will change">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+         <h2 class="text-muted">Featured Work</h2>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="img"><img class="img-responsive" src="images/movie_trailer.png" data-toggle="modal" data-target="#movie_trailer" alt="movie-trailer screenshot"></div>
+                <h3>Movie Trailers</h3>
+                <p>Movie trailer site built with python</p>
+        </div>
+
+        <div class="col-md-4">
+            <div class="img" data-toggle="modal" data-target="#Project-2"><img src="images/three.png" class ="img-responsive" alt="weird sunlight"></div>
+                <h3>New Project</h3>
+                <p>Description for new project</p>
+        </div>
+
+        <div class="col-md-4" data-toggle="modal" data-target="#Project-3">
+            <div class="img"><img src="images/two.png" class ="img-responsive" alt="flowers I think"></div>
+                <h3>New Project</h3>
+                <p>Description for new project</p>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="movie_trailer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Movie Trailers </h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/movie_trailer.png" alt="screenshot of movie_trailer">
+                    Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL. This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers. https://github.com/tdwilliams7/movie_trailer                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Project-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">next project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/three.png" alt="screenshot of movie_trailer">
+                    Description coming soon. https://github.com/tdwilliams7/            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Project-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">next project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/two.png" alt="screenshot of movie_trailer">
+                    Description coming soon. https://github.com/tdwilliams7/            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
