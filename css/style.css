@@ -8,6 +8,15 @@ body {
 img, embed, object, video {
     max-width: 100%;
 }
+.footer{
+    background-color: gray;
+    max-height: 60px;
+    color: white;
+}
+.space{
+    margin-bottom: 25px
+}
+
 .low {
     margin-top: 60px;
  }
